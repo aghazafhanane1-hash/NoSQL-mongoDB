@@ -1,26 +1,21 @@
-MongoDB est une base de données NoSQL orientée documents.
-Au lieu de stocker les données dans des tables comme les bases relationnelles classiques (par exemple SQL), MongoDB utilise des documents JSON/BSON flexibles.
+MongoDB est une base de données NoSQL orientée documents qui stocke les données au format JSON/BSON. Son principal avantage est sa flexibilité, car chaque document peut contenir une structure différente sans imposer de schéma fixe. Cette approche facilite le développement d’applications où les données évoluent fréquemment ou varient selon les utilisateurs. MongoDB est donc particulièrement adapté aux applications web modernes, aux plateformes e-commerce ou aux projets Big Data nécessitant une grande scalabilité. En revanche, PostgreSQL repose sur un modèle relationnel avec des tables et des colonnes définies à l’avance, garantissant une forte cohérence des données. PostgreSQL est généralement privilégié pour les systèmes financiers, administratifs ou analytiques où l’intégrité et la stabilité de la structure des données sont essentielles.
 
-Pourquoi MongoDB est utilisé dans certains projets ?
 
-MongoDB est souvent choisi quand :
+///////////////Mini-projet NoSQL MongoDB////////////////
 
-Les données changent souvent : il n’est pas nécessaire d’avoir une structure fixe.
-Le projet doit évoluer rapidement : très pratique pour les startups et les applications web modernes.
-Grand volume de données : il gère bien la scalabilité horizontale.
-Développement rapide : les développeurs peuvent ajouter de nouveaux champs facilement.
-Applications temps réel : chats, réseaux sociaux, IoT, e-commerce, etc.
-Pourquoi il n’est pas utilisé dans tous les projets ?
 
-MongoDB peut être moins adapté quand :
+////Partie 1 : Scripts MongoDB (JavaScript ou .js) qui :
 
-Les relations entre données sont très complexes.
-Le projet nécessite des transactions strictes et une forte cohérence des données.
-Les structures sont très stables et bien définies.
-Les requêtes SQL complexes sont importantes.
+Ajoutent/enrichissent les données (Partie 1 & 2).
 
-Dans ces cas, des bases relationnelles comme PostgreSQL ou MySQL sont souvent préférées.
+Contiennent les pipelines d’agrégation (Partie 3).
 
-Résumé simple
-MongoDB = flexible, rapide à développer, idéal pour applications modernes et évolutives.
-SQL (PostgreSQL/MySQL) = plus rigoureux, idéal pour systèmes financiers, ERP, gestion bancaire, etc.
+Créent les index et démontrent leur bénéfice (Partie 4).
+
+//////Partie 2 : Rapport écrit (PDF ou Markdown) de 4 à 6 pages :
+
+Expliquez votre modélisation et vos choix de champs.
+
+Présente les résultats des agrégations (avec captures ou extraits JSON).
+
+Justifie la stratégie d’indexation (avec statistique d’exécution).
