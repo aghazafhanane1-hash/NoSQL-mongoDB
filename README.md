@@ -12,7 +12,7 @@ Contiennent les pipelines d’agrégation (Partie 3).
 
 Créent les index et démontrent leur bénéfice (Partie 4).
 
-//////Partie 2 : Rapport écrit (PDF ou Markdown) de 4 à 6 pages :
+//////Partie 2 : Rapport écrit (PDF ):
 
 Expliquez votre modélisation et vos choix de champs.
 
